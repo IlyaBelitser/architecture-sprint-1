@@ -1,0 +1,17 @@
+{
+    "name": "web_canonicals_ru",
+    "private": true,
+    "version": "0.1.0",
+    "scripts": {
+      "start": "pnpm --filter * --parallel start",
+      "build": "pnpm --filter * build",
+      "serve": "pnpm --filter * --parallel serve",
+      "clean": "pnpm --filter * --parallel clean"
+    },
+    "devDependencies": {
+      "concurrently": "^8.2.2",
+      "lerna": "^8.1.8",
+      "webpack-cli": "^5.1.4"
+    }
+  }
+  
